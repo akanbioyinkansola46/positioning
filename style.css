@@ -1,0 +1,137 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+body{
+    background-color: gray;
+    background-image: url(./image/background.jfif);
+    background-size: cover;
+}
+.sun{
+    /* border: 2px solid red; */
+    position: relative;
+    margin-top: 220px;
+    margin-left: 530px;
+    width: 400px;
+    /* height: 400px; */
+}
+.orbit{
+    position: absolute;
+    border: 2px solid white;
+    border-radius: 50%;
+    left: 20%;
+    top: 50%;
+transform: translate(-50%, -50%);
+}
+.orbit1 {
+    width: 800px;
+    height: 550px;
+}
+
+.orbit2 {
+    width: 700px;
+    height: 500px;
+}
+
+.orbit3 {
+    width: 600px;
+    height: 400px;
+}
+
+.orbit4 {
+    width: 530px;
+    height: 350px;
+}
+
+/* .orbit5 {
+    width: 340px;
+    height: 170px;
+}
+
+.orbit6 {
+    width: 420px;
+    height: 210px;
+}
+
+.orbit7 {
+    width: 520px;
+    height: 260px;
+}
+
+.orbit8 {
+    width: 620px;
+    height: 310px;
+} */
+.mercury{
+    position: absolute;
+    border: 2px solid green;
+    width: 80px;
+    left: 100px;
+    bottom: 350px;
+
+}
+.venus{
+    position: absolute;
+    border: 2px solid yellow;
+    width: 150px;
+    left: -170px;
+    bottom: 300px;
+}
+.earth{
+    position: absolute;
+    border: 2px solid red;
+    width: 100px;
+    left: 300px;
+    bottom: 200px;
+} 
+.mars{
+    position: absolute;
+    border: 2px solid peru;
+    width: 100px;
+    left: 300px;
+    bottom: 350px; 
+   
+}
+.jupiter{
+     position: absolute;
+    /* border: 2px solid red; */
+    width: 100px;
+    left: -210px;
+    bottom: 90px;
+}
+.saturn{
+    position: absolute;
+    /* border: 2px solid peru; */
+    width: 100px;
+    left: 320px;
+    bottom: 80px;
+}
+.uranus{
+    position: absolute;
+    /* border: 2px solid green; */
+    width: 80px;
+    left: 200px;
+     top: 320px;
+}
+.uranus img{
+    width: 500px;
+    height: 86px;
+}
+.neptune{
+   
+     position: absolute;
+    /* border: 2px solid purple; */
+    width: 80px;
+    right:470px ;
+    top: 330px;
+}
+/* .box{
+    border: 5px solid black;
+    width: 100%;
+    height: 40px;
+    position: sticky;
+} */
